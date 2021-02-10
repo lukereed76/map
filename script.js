@@ -16,8 +16,8 @@ const oceanFill = svg
   .attr('id', 'ocean-fill')
   .attr('cx', '75%')
   .attr('cy', '25%')
-oceanFill.append('stop').attr('offset', '10%').attr('stop-color', '#5bc0de')
-oceanFill.append('stop').attr('offset', '100%').attr('stop-color', '#338eda')
+oceanFill.append('stop').attr('offset', '10%').attr('stop-color', '#ebf5fd')
+oceanFill.append('stop').attr('offset', '100%').attr('stop-color', '#d6e8f7')
 svg
   .append('circle')
   .attr('class', 'layer')
